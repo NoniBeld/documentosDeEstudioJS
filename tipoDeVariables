@@ -15,8 +15,16 @@ let
 
 la variable let puede guardar varios tipos de Datos... 
 
-cadena de texto, numeros y booleanos
+cadena de texto, numeros, booleanos, null, symbol, BigInt
 
+let a = "te amo Renata";   
+let b = 15;
+let hija = true;
+let amiga = false;
+let renata = null;
+let cruz = Symbol("cruz")
+let alturaDelUniverso = BigInt(9949446156198498404654165984654098490846541549849841621984984)
+let anchuraDelUniverso = 9899756248484984684616468943684981684984965484324684684646846846546846684681n
 
 //--------------------------------------------------Variable cons
 
@@ -25,3 +33,17 @@ cons
 
 la variable cons es un tipo de dato que no se puede modificar
 solo exite una objecion en los arrya se podria variar el dato...
+
+
+//------------------------------------------mostrar tipo de datos-----------------------------------------------
+let a = 1;
+
+
+console.log(typeof a);
+console.log(typeof hija);
+console.log(typeof renata);
+console.log(typeof cruz);
+console.log(typeof alturaDelUniverso);
+console.log(typeof anchuraDelUniverso);
+
+
