@@ -1,0 +1,75 @@
+//los condicionales o estucturas de control 
+
+//-------------------------------------------------------------------------------if--------------------------------------------------------------------------
+
+// if (si... pasa esto has esto....)
+
+let edad = 18
+
+if(edad == 18){
+  console.log("si la edad es 18 imprime ID y dejalo pasar")
+}
+  
+if(edad != 18){
+  console.log("no tienes 18 fuera de aqui")
+}
+if (edad <=19){
+  console.log("solo pueden pasar personas de 18 años eres viejo")
+}
+if (edad >= 17){
+console.log("eres muy joven para estar aqui vuelve cuando cumplas 18")
+}
+
+//-----------------------------------------------------------------------------------if{}else{}--------------------------------------------------------------------------
+
+//else (si no se cumple esto has esto)
+
+if(edad ==18) {
+  console.log("imprime su ID y dejalo pasar")
+} else{
+consoloe.log("solo las personas que tienen 18 años pueden pasar")
+}
+
+//-------------------------------------------------------------------------------------if{}else{}if{}----------------------------------------------------------------------------
+if(edad == 18){
+  console.log("imprime su ID y dejalo pasar")
+} else if(edad >= 17){
+console.log("eres muy joven para estar aqui vuelve cuando cumplas 18")
+}else{
+console.log("solo pueden pasar personas de 18 años eres viejo"")
+
+  //--------------------------------------------------------------------------------------------ternarios------------------------------------------------------------------------------------------
+
+ const entrada = edad == 18 ? "imprimir Id y dejarlo pasar" : "solo pueden pasara los de 18 años"
+  console.log(entrada)
+
+  //------------------------------------------------------------------------------------------------switch-------------------------------------------------------------------------------------------
+
+  let dia = 0
+  let nombreDelDia
+ 
+  switch(dia){
+  case 0:
+  nombreDelDia = "Domingo"
+    break
+    case 1:
+  nombreDelDia = "Lunes"
+    break
+    case 2:
+  nombreDelDia = "Martes"
+    break
+    case 3:
+  nombreDelDia = "Miercoles"
+    break
+    case 4:
+  nombreDelDia = "Jueves"
+    break
+    case 5:
+  nombreDelDia = "Viernes"
+    break
+    case 6:
+  nombreDelDia = "Sabado"
+    break
+    default:
+  nombreDelDia = "numero incorrecto intenta entre el digito 0 - 6"
+    }
