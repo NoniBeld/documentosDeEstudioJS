@@ -1,7 +1,26 @@
 //------------------------  tipo de variables -------------------------
+que es una variable?
 
-var
+una variable es un tiop de dato que se guarda y se puede modificar o no dependiendo la variable que ejecutes.
+//----------------------------- variable var
+
+var   
+
+esta variable se desaconseja el uso actual mente ya que se podia acseder a ella antes de mensionarla
+
+//--------------------------------Variable let
 
 let 
 
+
+la variable let puede guardar varios tipos de Datos... 
+
+cadena de texto, numeros y booleanos
+
+
+//--------------------------------------------------Variable cons
+
+
 cons
+
+la variable cons es un tipo de dato que no se puede modificar
