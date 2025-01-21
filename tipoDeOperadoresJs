@@ -1,6 +1,6 @@
 //----------------------------------------------tipo de operadores en js-------------------------
 
-//operadores aritmeticos
+//-----------------------------------------------operadores aritmeticos
 let a = 1
 let b = 1
 let c = 0
@@ -8,7 +8,93 @@ let c = 0
 console.log(a)
 console.log(b)
 console.log(c)
-console.log(a + b);
-console.log(a - b); 
-console.log(a * b); 
-console.log(a / b); 
+console.log(a + b);              // suma 
+console.log(a - b);             // resta
+console.log(a * b);             //multiplicacion
+console.log(a / b);             //division
+console.log(a % b);             //modulo 
+console.log(a ** b);           // exponente
+console.log(a++);             // inremento
+console.log(a--);             //decremento
+
+
+//----------------------------------------------------operadores de asignacion------------------------------
+
+//el simbolo de = asgina el valor a la variable... si quieres cambiar el valor de la variable en medio del programa usa =  
+edad = 18 
+console.log(edad);
+edad = edad + 6
+console.log(`en 6 años tendras ${edad}`);
+
+
+let a +=                                  //  esta asignacion es como escribir a = a + 2
+console.log(a);
+let a -=                                   //  esta asignacion es como escribir a = a - 2
+console.log(a);
+let a *=                                   //  esta asignacion es como escribir a = a * 2
+console.log(a);
+let a /=                                   //  esta asignacion es como escribir a = a / 2
+console.log(a);
+let a %=                                  //  esta asignacion es como escribir a = a % 2
+console.log(a);
+let a **=                                  //  esta asignacion es como escribir a = a ** 2
+console.log(a);
+
+//-------------------------------------------------------------operadores de Comparacion---------------------------------
+//como sunombre lo indica sirven para copara tipo de datos con una salida booleana
+
+let a = 1 
+let b = 2
+let c = "1"
+let d = 1
+
+console.log(a < b)                        //  mayor que 
+console.log(a > b)                        //  menor que 
+
+console.log(a <= b)                       //  mayor o igual que 
+console.log(a >= b)                        //  menor o igual que 
+
+console.log (a == b)                      //  igual que
+console.log(a == d)                      //  igual que
+console.log(a == c)                      //  igual que
+
+console.log(a === c)                      //  igual que (identidad y valor)
+console.log(a === d)                     //   igual que (identidad y valor)
+
+console.log(a != c)                      //  distinto a 
+console.log(a != d)                      // distinto a 
+
+console.log(a !== c)                    //   distinto a identidad y valor
+console.log(a !== d)                     //  distinto a identidad y valor 
+
+
+//----------------------------------------------------------------operadores logicos ----------------------------------------------------
+
+// &&   (y) 
+console.log( a < b || d < b)
+console.log( a > b && d > b)
+console.log( a < b && d > b)
+console.log( a < b && d < b && a < d)
+
+// || (O)
+
+console.log( a < b || d < b)
+console.log( a > b || d > b)
+console.log( a < b || d > b)
+console.log( a < b || d < b || a < d)
+
+console.log( a < b || d < b && a < d)
+console.log( a < b && d < b || a < d)
+
+// ! (no)
+console.log( !(a < b || d < b))
+console.log( !(a < b || d < b))
+console.log(! true)
+console.log(! false)
+
+//---------------------------------------------------------------operadores ternarios-------------------------------------------------------
+
+cons amor + true
+amor ? console.log("Tienes Amor") : console.log("Dios te puede dar el amor que necesitas")
+
+
