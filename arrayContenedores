@@ -1,0 +1,101 @@
+//array o uba estructura de datos o un contenedor de datos
+
+//--------------------------------------------------------------------------arrays[]-------------------------------------------------------------
+
+let contenedorArray = [];
+let contenedorArray2 = new Array()
+
+console.log(contenedorArray)
+console.log(contenedorArray2)
+
+contenedorArray = [1]
+contenedorArray2 = new Array(1)
+
+console.log(contenedorArray)
+console.log(contenedorArray2)
+
+contenedorArray = [1,2,3,4]
+contenedorArray2 = new Array(1,2,3,4)
+
+console.log(contenedorArray)
+console.log(contenedorArray2)
+
+contenedorArray = [1,"dos",3,"cuatro"]
+contenedorArray2 = new Array("uno",true,3,null)
+
+console.log(contenedorArray)
+console.log(contenedorArray2)
+
+contenedorArray = [1,2,3,4]
+
+contenedorArray2 = new Array(4)
+contenedorArray2[0]= "renata"
+contenedorArray2[1]=  15  
+contenedorArray2[2]= "octubre"
+contenedorArray2[3]= true
+
+console.log(contenedorArray2)
+console.log(`hola ${contenedorArray2[0]} te amo mucho hija naciste un $${contenedorArray2[1]} de ${contenedorArray2[2]}`)
+
+//------------------------------------------------------------------------------push()
+//agrega un lugar al final
+contenedorArray2.push("noni")
+contenedorArray2.push(40)
+contenedorArray2.push("agosto")
+contenedorArray2.push(false)
+console.log(`te ama ${contenedorArray2[4]} tu padre yo naci un $${contenedorArray2[5]} de ${contenedorArray2[6]}`)
+
+//-------------------------------------------------------------------------pop()
+//elimina el ultimo lugar
+
+console.log(contenedorArray2)
+contenedorArray2.pop()
+console.log(contenedorArray2)
+console.log(contenedorArray2.pop())
+
+//------------------------------------------------------------------------shift()
+// elimina el primer lugar
+
+console.log(contenedorArray2)
+contenedorArray2.shift()
+console.log(contenedorArray2)
+console.log(contenedorArray2.shift())
+
+//-------------------------------------------------------------------------unshift()
+
+console.log(contenedorArray2)
+contenedorArray2.unshift("ariz" , 23 , "agosto")
+console.log(contenedorArray2)
+console.log(contenedorArray2.shift("te amo"))
+
+//----------------------------------------------------------------------------lenght
+
+contenedorArray2.length
+
+//---------------------------------------------------------------------------limpiar el array
+
+console.log(contenedorArray)
+
+contenedorArray = []
+
+console.log(contenedorArray)
+
+//--------------------------------------------------------------------------------------slice()
+
+contenedorArray[0] = 1
+contenedorArray[1] = 2
+contenedorArray[2] = 3
+console.log(contenedorArray)
+
+contenedorArray.push(3)
+contenedorArray.push(4)
+console.log(contenedorArray)
+
+contenedorArray.push(5,6,7,8,9)
+console.log(contenedorArray)
+
+contArray3 = contenedorArray.slice(2,5)
+console.log(contenedorArray)
+console.log(contArray3)
+
+
